@@ -1,36 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <title>Noticia</title>
-    </head>
-    <body>
-        <article>
-            <header>
-                <h1>The Futility of Rolling Stone's Best-Albums List</h1>
-                <p>
-                    por <a href="#">Sheldon Pearce</a>
-                </p>
-                <time datetime="2020-10-02">October 2, 2020</time>
-            </header>
-            <figure>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Rs-500-greatest-albums.jpg" alt="Descripción de la imagen">
-                <figcaption>
-                    <p>Texto descriptivo de la imagen</p>
-                    <p><strong>Illustration by Aaron Lowell Denton</strong></p>
-                </figcaption>
-            </figure>
-            <section>
-                <h2>Cultural Comment</h2>
+<head>
+    <meta charset="UTF-8">
+    <title>Noticia</title>
+</head>
+<body>
 
-                <p>
-                    Rolling Stone’s updated list of the five hundred best albums...
-                </p>
+<article>
+    <header>
+        <h1>The Futility of Rolling Stone's Best-Albums List</h1>
+        <p>
+            por <a href="#">Sheldon Pearce</a>
+        </p>
+        <time datetime="2020-10-02">October 2, 2020</time>
+    </header>
 
-                <p>
-                    (seguís agregando párrafos del texto)
-                </p>
-            </section>
-        </article>
-    </body>
+    <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Rs-500-greatest-albums.jpg" alt="Descripción de la imagen">
+        <figcaption>
+            <p>Texto descriptivo de la imagen</p>
+            <p><strong>Illustration by Aaron Lowell Denton</strong></p>
+        </figcaption>
+    </figure>
+
+    <section>
+        <h2>Cultural Comment</h2>
+
+        <p>
+            Rolling Stone’s updated list of the five hundred best albums...
+        </p>
+
+        <p>
+            (seguís agregando párrafos del texto)
+        </p>
+    </section>
+
+    <!-- FORMULARIO -->
+    <section>
+        <h2>Contacto</h2>
+
+        <form>
+            <fieldset>
+                <legend>Envíanos tu opinión</legend>
+
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Tu email" required><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribí tu mensaje" required></textarea><br><br>
+
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </section>
+
+</article>
+
+</body>
 </html>
